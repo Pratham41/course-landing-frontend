@@ -21,7 +21,7 @@ out/
 .next/
 dist/
 .storybook/
-public/
+# public/
 
 # Temporary files
 .DS_Store

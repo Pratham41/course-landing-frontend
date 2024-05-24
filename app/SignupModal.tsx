@@ -45,7 +45,7 @@ const SignupModal: React.FC<SignupModalProps> = ({ isOpen, onClose }) => {
     };
     try {
       const response = await fetch(
-        "http://localhost:5000/api/v1/users/register",
+        "https://course-landing-backend.vercel.app/api/v1/users/register",
         {
           method: "POST",
           headers: {

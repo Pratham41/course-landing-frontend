@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import courseImage from "../public/assets/c5.jpg";
+import courseImage from "./c5.jpg";
 import { useEffect, useState } from "react";
 import SignupModal from "./SignupModal";
 
